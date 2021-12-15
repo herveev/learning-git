@@ -1,0 +1,5 @@
+git config -l
+git init
+git status
+gitt add .
+git commit -m "added console.log and gitCommons"
