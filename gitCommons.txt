@@ -1,5 +1,6 @@
-git config -l
-git init
-git status
-gitt add .
-git commit -m "added console.log and gitCommons"
+CREDENTIALS : git config -l
+INITIALIZATION: git init
+STATUS : git status
+ADDING ALL FILES TO STAGING AREA : gitt add .
+COMMIT : git commit -m "messge"
+LIST OF COMMITS : git log 
