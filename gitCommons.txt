@@ -6,3 +6,4 @@ COMMIT : git commit -m "messge"
 LIST OF COMMITS : git log 
 SHOW COMMIT MODIFICATIONS : git show e847fc0be0e7922636d4a8b68efdd2b176bdc9f2
 DISCARD A CHANGE IN THE DIRECTORY : git restore fileName
+AMEND A COMMIT : git commit --amend -m "body{} added to main.css"
