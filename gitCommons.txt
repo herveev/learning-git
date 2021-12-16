@@ -17,3 +17,9 @@ AMEND A COMMIT : git commit --amend -m "body{} added to main.css"
 git remote add origin https://github.com/herveev/learning-git.git
 git branch -M main
 git push -u origin main
+git pull 
+
+-----branches
+CURRENT BRANCH : git branch 
+ALL BRANCHES OF THE REMOTE SERVER : git branch -r
+ALL BRANCHES	: git branch -r
