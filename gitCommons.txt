@@ -1,3 +1,6 @@
+--basic commands
+
+
 CREDENTIALS : git config -l
 INITIALIZATION: git init
 STATUS : git status
@@ -7,3 +10,10 @@ LIST OF COMMITS : git log
 SHOW COMMIT MODIFICATIONS : git show e847fc0be0e7922636d4a8b68efdd2b176bdc9f2
 DISCARD A CHANGE IN THE DIRECTORY : git restore fileName
 AMEND A COMMIT : git commit --amend -m "body{} added to main.css"
+
+
+--gitHubpush an existing repository from the command line
+
+git remote add origin https://github.com/herveev/learning-git.git
+git branch -M main
+git push -u origin main
