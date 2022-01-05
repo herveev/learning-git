@@ -33,4 +33,15 @@ LIST OF ALL BRANCHES (remote and local) : git branch -a
 CREATE BRANCH : git branch branch-name ;
 	creating a branch is taking a copy of the existing main branch
 SWITCH BRANCH : git checkout branch-name
+PUSH A BRANCH TO REMOTE SERVER : * git push ,
+								 copy and paste the command that will be in the cmd line and press enter.
+								 * git push -u origin branch-name
+SWITCH TO THE PREVIOUS BRANCH : git checkout -
+CREATE AND SWITCH TO A BRANCH : git checkout -b branch-name
+DELETE BRANCH : git branch -d branch-name
+
+HOW TO MERGE CHANGES FROM A BRANCH TO MAIN BRANCH  ? : git merge branch-name
+
+--PULL REQUESTS
+
 
