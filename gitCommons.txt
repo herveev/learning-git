@@ -37,5 +37,12 @@ PUSH A BRANCH TO REMOTE SERVER : * git push ,
 								 copy and paste the command that will be in the cmd line and press enter.
 								 * git push -u origin branch-name
 SWITCH TO THE PREVIOUS BRANCH : git checkout -
+CREATE AND SWITCH TO A BRANCH : git checkout -b branch-name
+DELETE BRANCH : git branch -d branch-name
+
+HOW TO MERGE CHANGES FROM A BRANCH TO MAIN BRANCH  ? 
+  option a : git merge branch-name
+  option b : PULL REQUESTS
+
 
 
