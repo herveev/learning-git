@@ -17,9 +17,25 @@ AMEND A COMMIT : git commit --amend -m "body{} added to main.css"
 git remote add origin https://github.com/herveev/learning-git.git
 git branch -M main
 git push -u origin main
-git pull 
 
------branches
-CURRENT BRANCH : git branch 
-ALL BRANCHES OF THE REMOTE SERVER : git branch -r
-ALL BRANCHES	: git branch -r
+--Git Pull
+
+BRING LATEST CHANGES FROM REMOTE : git pull 
+
+
+--Branches
+
+A branch represent an independent line of development
+
+KNOWING THE BRANCH THAT WE ARE ON (local machine) : git branch 
+LIST OF BRANCHES IN THE REMOTE SERVER : git branch -r
+LIST OF ALL BRANCHES (remote and local) : git branch -a
+CREATE BRANCH : git branch branch-name ;
+	creating a branch is taking a copy of the existing main branch
+SWITCH BRANCH : git checkout branch-name
+PUSH A BRANCH TO REMOTE SERVER : * git push ,
+								 copy and paste the command that will be in the cmd line and press enter.
+								 * git push -u origin branch-name
+SWITCH TO THE PREVIOUS BRANCH : git checkout -
+
+
