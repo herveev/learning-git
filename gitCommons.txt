@@ -38,8 +38,11 @@ PUSH A BRANCH TO REMOTE SERVER : * git push ,
 								 * git push -u origin branch-name
 SWITCH TO THE PREVIOUS BRANCH : git checkout -
 CREATE AND SWITCH TO A BRANCH : git checkout -b branch-name
-DELETE BRANCH : git branch -d branch-name
-
+DELETE LOCAL BRANCH :
+					  *if fully merged   git branch -d branch-name
+					  *else git branch -D branch-name
+DELETE REMOTE BRANCH:
+					  *git push origin --delete {the_remote_branch}	
 HOW TO MERGE CHANGES FROM A BRANCH TO MAIN BRANCH  ? 
   option a : git merge branch-name
   option b : PULL REQUESTS
@@ -63,3 +66,13 @@ git push origin main
 
 
 GIT WORKFLOW
+
+Working on a new feature , the first thing that we should do is to pull the latest changes from 
+the remote repository (master) down to our local machine or repository.From that point we create 
+a new branch, after a couple of commits , it's advisable to rebase(bring the latest changes from master
+into out local machine) , resolve conflicts if exits only once with one commit ,push , raise 
+a pull request and merge to the master.
+
+DEALING WITH CONFLICTS
+
+ 
